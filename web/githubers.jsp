@@ -5,16 +5,24 @@
 <jsp:include page="header.jsp"/>
 
 
-<div class="list-group">
-    <button type="button" class="list-group-item list-group-item-action active bg-dark">
-        Mes Githubers
-    </button>
+<div class="container">
+    <div class="row">
 <c:forEach items= "${githubers}" var="githuber">
-    <div>
-    <button type="button" class="list-group-item  list-group-item-action bg-"><img src=${githuber.avatarUrl}> ${githuber.name}</button>
+    <div class="col-md">
+    <div class="list-group">
+    <button type="button" class="list-group-item list-group-item-action active bg-dark" data-toggle="tooltip" data-placement="bottom" title=${githuber.email}>
+            ${githuber.name}
+    </button>
+    <button type="button" class="list-group-item  list-group-item-action bg-"><img src=${githuber.avatarUrl} data-toggle="tooltip" data-placement="bottom" title= ${githuber.email}> </button>
+    </div>
     </div>
 </c:forEach>
+    </div>
 </div>
+
+
+
+
 
 </body>
 </html>

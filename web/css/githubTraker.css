@@ -1,14 +1,21 @@
 .list-group-item-action{
     font-weight: bold;
     font-size: 100vm;
+}
 
+.container{
+    margin-top: 5%;
 
 }
 
-.list-group{
-    padding-right: 80%;
-    margin-left: 5%;
-    margin-top: 2%;
 
+.list-group  {
+
+    padding-right: 28%;
 
 }
+
+
+
+
+

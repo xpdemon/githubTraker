@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <style type="text/css">
         <jsp:include page="css/githubTraker.css"/>
+        <jsp:include page="js/githubers.js"/>
         <jsp:include page="bootstrap/css/bootstrap.css"/>
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
