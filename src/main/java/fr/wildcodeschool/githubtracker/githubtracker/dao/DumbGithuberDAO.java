@@ -2,13 +2,16 @@ package fr.wildcodeschool.githubtracker.githubtracker.dao;
 
 import fr.wildcodeschool.githubtracker.model.Githuber;
 
+import javax.enterprise.context.Dependent;
+import javax.enterprise.inject.Alternative;
 import java.util.ArrayList;
 
 import java.util.List;
 
 
-
+@Dependent
 public class DumbGithuberDAO implements GithuberDAO {
+
 
 
     @Override
@@ -33,9 +36,14 @@ public class DumbGithuberDAO implements GithuberDAO {
         Githuber tails = new Githuber();
         tails.setName("Tails");tails.setId(5);tails.setAvatarUrl("http://www.animated-gifs.eu/category_leisure/avatars-100x100-leisure/0060.gif");tails.setLogin("Tails");tails.setEmail("Tails@wcs.fr");
         githuberList.add(tails);
-
-
-
         return githuberList;
+
     }
+
+    @Override
+    public void saveGithuber(Githuber githuber) throws UnsupportedOperationException {
+
+    }
+
+
 }

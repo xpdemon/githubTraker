@@ -11,9 +11,9 @@
     <div class="col-md">
     <div class="list-group">
     <button type="button" class="list-group-item list-group-item-action active bg-dark" data-toggle="tooltip" data-placement="bottom" title=${githuber.email}>
-            ${githuber.name}
+            ${githuber.login}
     </button>
-    <button type="button" class="list-group-item  list-group-item-action bg-"><img src=${githuber.avatarUrl} data-toggle="tooltip" data-placement="bottom" title= ${githuber.email}> </button>
+    <button type="button" class="list-group-item  list-group-item-action bg-"><img src=${githuber.avatar_url} data-toggle="tooltip" data-placement="bottom" title= ${githuber.email}> </button>
     </div>
     </div>
 </c:forEach>

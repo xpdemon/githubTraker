@@ -1,2 +1,10 @@
+fr/wildcodeschool/githubtracker/service/GithubUtils.class
 fr/wildcodeschool/githubtracker/controller/ServletGithubersServlet.class
+fr/wildcodeschool/githubtracker/service/ObjectMapperProducer.class
+fr/wildcodeschool/githubtracker/githubtracker/dao/DumbGithuberDAO.class
+fr/wildcodeschool/githubtracker/githubtracker/dao/GithuberDAO.class
+fr/wildcodeschool/githubtracker/controller/ServletTrack.class
+fr/wildcodeschool/githubtracker/githubtracker/dao/InMemory.class
 fr/wildcodeschool/githubtracker/model/Githuber.class
+fr/wildcodeschool/githubtracker/service/MemoryGithuberDAO.class
+fr/wildcodeschool/githubtracker/service/GithubersService.class
