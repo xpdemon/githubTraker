@@ -34,7 +34,7 @@ public class Githuber {
     }
 
     @JsonCreator
-    public String getAvatarUrl() {
+    public String getavatar_url() {
         return avatar_url;
     }
 
@@ -59,7 +59,7 @@ public class Githuber {
     }
 
     @JsonCreator
-    public void setAvatarUrl(String avatarUrl) {
-        this.avatar_url = avatarUrl;
+    public void setAvatarUrl(String avatar_url) {
+        this.avatar_url = avatar_url;
     }
 }
